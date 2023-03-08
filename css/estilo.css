@@ -70,3 +70,7 @@ s .df-header {
 .container-carrusel {
   padding-bottom: 60px;
 }
+
+.translate:hover{
+  transform: translate(0,5px);
+}
