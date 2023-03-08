@@ -8,9 +8,8 @@ a,
 a:active {
   text-decoration: none;
   color: black;
-}s
-
-.df-header {
+}
+s .df-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +40,7 @@ a:active {
 
 .body {
   margin: 0%;
-  background-color: rgb(235, 148, 120);
+  background-color: rgb(243, 223, 217);
   font-family: sans-serif;
   color: black;
   position: relative;
@@ -57,4 +56,17 @@ a:active {
   bottom: 0;
   width: 100%;
   color: white;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.main {
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.container-carrusel {
+  padding-bottom: 60px;
 }
