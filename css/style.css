@@ -1,0 +1,91 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+a,
+a:active {
+  text-decoration: none;
+  color: black; }
+
+s .df-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a97a5;
+  flex-direction: row;
+  padding: 15px; }
+
+.logo {
+  display: flex;
+  justify-content: center; }
+
+.logo p {
+  margin: 10px; }
+
+.df-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none; }
+
+.df-ul li {
+  margin: 10px; }
+
+.body {
+  margin: 0%;
+  background-color: #f3dfd9;
+  font-family: lato;
+  color: black;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh; }
+
+.footer {
+  background-color: #e0d4e6;
+  padding: 1em 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.carousel-inner img {
+  margin: auto; }
+
+.container-carrusel {
+  padding-bottom: 60px; }
+
+.translate:hover {
+  transform: translate(0, 5px); }
+
+.main {
+  padding-bottom: 60px;
+  padding-top: 40px; }
+
+#principal {
+  min-height: 100vh;
+  background: url(../images/inicio-niños.jpg) center no-repeat;
+  background-size: cover; }
+
+#principal:before {
+  opacity: 0.5; }
+
+.texto-inicio {
+  font-size: x-large; }
+
+.padding-texto-inicio {
+  padding-bottom: 600px; }
+
+.nombre-fundacion-footer {
+  color: black; }
+
+.titulo-index {
+  font-size: x-large; }
+
+.imagen-alta {
+  height: 50px; }
+
+.texto-actividades {
+  padding-right: 2em;
+  padding-left: 2em; }
