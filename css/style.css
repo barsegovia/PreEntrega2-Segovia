@@ -1,4 +1,18 @@
 @charset "UTF-8";
+@keyframes square-in-top-right {
+  from {
+    clip-path: inset(100% 100% 0 0); }
+  to {
+    clip-path: inset(0 0 0 0); } }
+
+[transition-style="in:square:top-right"] {
+  animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) square-in-top-right both; }
+
+.--in-custom {
+  --transition__duration: 1s;
+  --transition__easing: ease-in-out;
+  animation-name: circle-swoop; }
+
 * {
   margin: 0%;
   padding: 0%;
@@ -36,7 +50,7 @@ s .df-header {
 .body {
   margin: 0%;
   background-color: #f3dfd9;
-  font-family: lato;
+  font-family: Lato, sans-serif;
   color: black;
   position: relative;
   padding-bottom: 3em;
