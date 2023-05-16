@@ -1,0 +1,35 @@
+.df-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a97a5;
+    flex-direction: row;
+    padding: 15px;
+  }
+  
+.logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo p {
+    margin: 10px;
+  }
+  .df-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .df-ul li {
+    margin: 10px;
+  }
+  
+.translate:hover {
+    transform: translate(0, 5px);
+  }
+
+  nav {
+    background-color: $color-nav;
+  }

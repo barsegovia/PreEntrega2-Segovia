@@ -21,6 +21,11 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      href=" https://unpkg.com/transition-style/transition.circles.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <title>Fundación</title>
     <meta name="keywords" content="Niños, Fundación, Familia, Ayuda, Chile" />
     <meta name="descriptions" content="Conocenos un poco más" />
@@ -34,13 +39,18 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img
-              src="images/logo-fundacion-oficial2.jpg"
-              alt="Niños riendose"
-              width="30"
-              height="24"
-              class="d-inline-block align-text-top --in-custom"
-            />
+            
+            
+            
+              <img
+                src="images/logo-fundacion-oficial2.jpg"
+                alt="Niños riendose"
+                width="30"
+                height="24"
+                class="d-inline-block align-text-top --in-custom"
+                transition-style="in:circle:bottom-right"
+              />
+          
             Tiempo de reir
           </a>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -91,15 +101,20 @@
         </p>
       </div>
     </main>
+
     <footer class="footer">
-      <div class="redes">
-        <p class="nombre-fundacion-footer">Fundación tiempo de reír</p>
-        <a href="https://www.instagram.com/" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a href="https://www.facebook.com/" target="_blank"
-          ><i class="fab fa-facebook-square"></i
-        ></a>
+      <div class="container">
+        <div class="row">
+          <div class="redes">
+            <p class="nombre-fundacion-footer">Fundación tiempo de reír</p>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+          </div>
+        </div>
       </div>
     </footer>
     <script

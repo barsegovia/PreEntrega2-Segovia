@@ -3,6 +3,7 @@
 @import "footer.scss";
 @import "body.scss";
 @import "image_background.scss";
+@import "transition-style";
 
 * {
   margin: 0%;
@@ -13,13 +14,13 @@
 a,
 a:active {
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 s .df-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(42, 151, 165);
+  background-color: #2a97a5;
   flex-direction: row;
   padding: 15px;
 }
@@ -46,9 +47,9 @@ s .df-header {
 
 .body {
   margin: 0%;
-  background-color: rgb(243, 223, 217);
+  background-color: #f3dfd9;
   font-family: Lato, sans-serif;
-  color: black;
+  color: #000000;
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh;
@@ -58,9 +59,9 @@ s .df-header {
   background-color: $color-nav;
   padding: 1em 0;
   text-align: center;
+  width: 100%;
   position: absolute;
   bottom: 0;
-  width: 100%;
 }
 
 .carousel-inner img {
@@ -75,7 +76,7 @@ s .df-header {
   transform: translate(0, 5px);
 }
 .main {
-  padding-bottom: 60px;
+  padding-bottom: 100px;
   padding-top: 40px;
 }
 #principal {
@@ -94,7 +95,7 @@ s .df-header {
   padding-bottom: 600px;
 }
 .nombre-fundacion-footer {
-  color: black;
+  color: #000000;
 }
 .titulo-index {
   font-size: x-large;

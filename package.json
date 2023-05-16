@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass --include-path scss scss/main.scss css/style.css",
-    "watch-css":"nodemon -e scss -x \"npm run build-css\""
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "Bárbara Segovia",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "transition-style": "^0.1.3"
+  }
 }

@@ -21,7 +21,7 @@
 a,
 a:active {
   text-decoration: none;
-  color: black; }
+  color: #000000; }
 
 s .df-header {
   display: flex;
@@ -51,7 +51,7 @@ s .df-header {
   margin: 0%;
   background-color: #f3dfd9;
   font-family: Lato, sans-serif;
-  color: black;
+  color: #000000;
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh; }
@@ -60,9 +60,9 @@ s .df-header {
   background-color: #e0d4e6;
   padding: 1em 0;
   text-align: center;
+  width: 100%;
   position: absolute;
-  bottom: 0;
-  width: 100%; }
+  bottom: 0; }
 
 .carousel-inner img {
   margin: auto; }
@@ -74,7 +74,7 @@ s .df-header {
   transform: translate(0, 5px); }
 
 .main {
-  padding-bottom: 60px;
+  padding-bottom: 100px;
   padding-top: 40px; }
 
 #principal {
@@ -92,7 +92,7 @@ s .df-header {
   padding-bottom: 600px; }
 
 .nombre-fundacion-footer {
-  color: black; }
+  color: #000000; }
 
 .titulo-index {
   font-size: x-large; }
